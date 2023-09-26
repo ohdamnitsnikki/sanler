@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 /*navbar*/
 .navbar {
     background-color: #720026;
@@ -33,7 +37,95 @@
 }
 
 .navbar-nav {
-    margin: 0 auto;
     display: flex;
     align-items: center;
+}
+
+.navbar-collapse {
+    margin-left: 60%;
+}
+
+.navbar-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-nav li {
+    margin: 0 15px;
+}
+
+.dropdown-menu {
+    background-color: #720026;
+}
+
+.dropdown-item {
+    color: white;
+    border-bottom: 1px solid #4F000B;
+}
+
+/* Center the collapsed menu */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* footer */
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #FF7F51;
+}
+
+.footer-top {
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-bottom {
+    background-color: #720026;
+    padding: 20px;
+    text-align: center;
+}
+
+.box {
+    background-color: #FF9B54;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.box p {
+    margin: 10px 0;
+}
+
+.newsletter-text {
+    color: white;
+    margin: 10px 0;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe-button {
+    background-color: #FF9B54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .footer-bottom .col-sm-4 {
+        margin-bottom: 10px;
+    }
 }
