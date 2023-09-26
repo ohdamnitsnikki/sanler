@@ -1,0 +1,39 @@
+/*navbar*/
+.navbar {
+    background-color: #720026;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.brand-name {
+    font-style: italic;
+    font-size: 18px;
+    color: white; 
+}
+
+.nav-link {
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #4F000B;
+}
+
+.vertical-line {
+    border-left: 1px solid white;
+    height: 40px;
+    margin: 0 15px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}

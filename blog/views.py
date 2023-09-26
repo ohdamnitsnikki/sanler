@@ -5,6 +5,5 @@ from django.http import HttpResponseRedirect
 
 
 def index(request):
-    # Get all the posts with images from the database
     return render(
         request, 'index.html')
