@@ -68,22 +68,26 @@
 
     </header>
 
-    <main class="flex-shrink-0 main-bg">
+    <main class="flex-shrink-0 main-bg main-height">
       {% block content %}
       <!-- Content -->
       {% endblock content %}
     </main>
 
   <!-- The footer -->
-  <div class="container-fluid">
+  <div class="container-fluid container-footer">
     <div class="footer">
+        <div class="footer-bottom">
+        </div>
         <div class="footer-top">
             <div class="row">
                 <div class="col-md-4">
+                    <div class="sw-box">
                     <div class="box">
                         <p>SW</p>
                     </div>
-                    <p></p>
+                </div>
+                    <p>Champagne or die</p>
                 </div>
                 <div class="col-md-4">
                     <p class="newsletter-text">Longing for our newsletters?</p>
@@ -92,23 +96,12 @@
                 </div>
                 <div class="col-md-4">
                     <p>Follow us</p>
+                    <a href="https://www.instagram.com/sanler_wine/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/sanlerwine.se" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p>Bottom Part 1</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <p>Bottom Part 2</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <p>Bottom Part 3</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>

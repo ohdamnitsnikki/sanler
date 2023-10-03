@@ -6,6 +6,7 @@ body {
 .navbar {
     background-color: #720026;
     color: white;
+    padding-left: 10px;
 }
 
 .navbar-brand {
@@ -72,12 +73,26 @@ body {
     }
 }
 
+/* main */
+
+.main-height {
+    min-height: 71vh;
+}
+
 /* footer */
+
+.container-footer {
+    padding: 0px;
+}
 
 .footer {
     position: sticky;
     bottom: 0;
     background-color: #FF7F51;
+}
+
+.footer p {
+    color: #fff;
 }
 
 .footer-top {
@@ -86,8 +101,8 @@ body {
 }
 
 .footer-bottom {
-    background-color: #720026;
-    padding: 20px;
+    background-color: #720026e0;
+    padding: 4px;
     text-align: center;
 }
 
@@ -97,6 +112,10 @@ body {
     text-align: center;
     border-radius: 50%;
     padding: 20px;
+}
+
+.sw-box {
+    width:fit-content;
 }
 
 .box p {
@@ -122,6 +141,12 @@ body {
     border-radius: 5px;
     padding: 10px 20px;
     margin-top: 10px;
+}
+
+.fa-brands {
+    color: #fff;
+    padding: 2px;
+    font-size: 3vh;
 }
 
 @media (max-width: 767px) {
